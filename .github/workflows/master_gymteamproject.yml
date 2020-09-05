@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'gymteamproject'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_9a6b253655a148b5a6a688c01f6ad275 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_efbef11d9c0649c994da3fad9f76a3f5 }}
         package: '${{ github.workspace }}/target/*.war'
